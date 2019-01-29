@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4FE6EC367E7B6E997A62309 /* Pods_SpeedoAlertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F54DC07B54296C72AC6962 /* Pods_SpeedoAlertTests.framework */; };
+		A5E570A27A7C7DB7996BC974 /* Pods_SpeedoAlertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7846C5D1C2333C0087B4FFC /* Pods_SpeedoAlertUITests.framework */; };
+		D61F22363527BE0D16B4E87A /* Pods_SpeedoAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA61AE87A5EEE7066848EF9 /* Pods_SpeedoAlert.framework */; };
+		FD7866B621F429A80028B71E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7866B521F429A80028B71E /* AppDelegate.swift */; };
+		FD7866B821F429A80028B71E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7866B721F429A80028B71E /* ViewController.swift */; };
+		FD7866BB21F429A80028B71E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7866B921F429A80028B71E /* Main.storyboard */; };
+		FD7866BD21F429AD0028B71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7866BC21F429AD0028B71E /* Assets.xcassets */; };
+		FD7866C021F429AD0028B71E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7866BE21F429AD0028B71E /* LaunchScreen.storyboard */; };
+		FD7866CB21F429AE0028B71E /* SpeedoAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7866CA21F429AE0028B71E /* SpeedoAlertTests.swift */; };
+		FD7866D621F429AE0028B71E /* SpeedoAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7866D521F429AE0028B71E /* SpeedoAlertUITests.swift */; };
+		FD7866E621F44EE70028B71E /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD7866E521F44EE60028B71E /* sound.mp3 */; };
+		FD7866ED21F4A3710028B71E /* krunch_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD7866E921F4925E0028B71E /* krunch_bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD7866C721F429AE0028B71E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7866AA21F429A80028B71E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7866B121F429A80028B71E;
+			remoteInfo = SpeedoAlert;
+		};
+		FD7866D221F429AE0028B71E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7866AA21F429A80028B71E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7866B121F429A80028B71E;
+			remoteInfo = SpeedoAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BEDA21C073F110E11DAF0F7 /* Pods-SpeedoAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedoAlert.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedoAlert/Pods-SpeedoAlert.debug.xcconfig"; sourceTree = "<group>"; };
+		4F0660DA121CD0415630DFBC /* Pods-SpeedoAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedoAlert.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedoAlert/Pods-SpeedoAlert.release.xcconfig"; sourceTree = "<group>"; };
+		7316994C700CCEB4CC76F989 /* Pods-SpeedoAlertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedoAlertUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedoAlertUITests/Pods-SpeedoAlertUITests.release.xcconfig"; sourceTree = "<group>"; };
+		89F54DC07B54296C72AC6962 /* Pods_SpeedoAlertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedoAlertTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B7BC93C789E135B7BE488B3 /* Pods-SpeedoAlertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedoAlertUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedoAlertUITests/Pods-SpeedoAlertUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DA61AE87A5EEE7066848EF9 /* Pods_SpeedoAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedoAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1A61A69F6C9CA225029A1EB /* Pods-SpeedoAlertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedoAlertTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedoAlertTests/Pods-SpeedoAlertTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C70E034F9A79C455690C87B9 /* Pods-SpeedoAlertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedoAlertTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedoAlertTests/Pods-SpeedoAlertTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7846C5D1C2333C0087B4FFC /* Pods_SpeedoAlertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedoAlertUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7866B221F429A80028B71E /* SpeedoAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedoAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7866B521F429A80028B71E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD7866B721F429A80028B71E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD7866BA21F429A80028B71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD7866BC21F429AD0028B71E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD7866BF21F429AD0028B71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD7866C121F429AD0028B71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7866C621F429AE0028B71E /* SpeedoAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedoAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7866CA21F429AE0028B71E /* SpeedoAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedoAlertTests.swift; sourceTree = "<group>"; };
+		FD7866CC21F429AE0028B71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7866D121F429AE0028B71E /* SpeedoAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedoAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7866D521F429AE0028B71E /* SpeedoAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedoAlertUITests.swift; sourceTree = "<group>"; };
+		FD7866D721F429AE0028B71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7866E521F44EE60028B71E /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		FD7866E921F4925E0028B71E /* krunch_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = krunch_bold.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD7866AF21F429A80028B71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61F22363527BE0D16B4E87A /* Pods_SpeedoAlert.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7866C321F429AE0028B71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FE6EC367E7B6E997A62309 /* Pods_SpeedoAlertTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7866CE21F429AE0028B71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E570A27A7C7DB7996BC974 /* Pods_SpeedoAlertUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6767026BE208B656C6F0D9D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BEDA21C073F110E11DAF0F7 /* Pods-SpeedoAlert.debug.xcconfig */,
+				4F0660DA121CD0415630DFBC /* Pods-SpeedoAlert.release.xcconfig */,
+				B1A61A69F6C9CA225029A1EB /* Pods-SpeedoAlertTests.debug.xcconfig */,
+				C70E034F9A79C455690C87B9 /* Pods-SpeedoAlertTests.release.xcconfig */,
+				9B7BC93C789E135B7BE488B3 /* Pods-SpeedoAlertUITests.debug.xcconfig */,
+				7316994C700CCEB4CC76F989 /* Pods-SpeedoAlertUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD7866A921F429A70028B71E = {
+			isa = PBXGroup;
+			children = (
+				FD7866B421F429A80028B71E /* SpeedoAlert */,
+				FD7866C921F429AE0028B71E /* SpeedoAlertTests */,
+				FD7866D421F429AE0028B71E /* SpeedoAlertUITests */,
+				FD7866B321F429A80028B71E /* Products */,
+				6767026BE208B656C6F0D9D2 /* Pods */,
+				FF46E40DDD884CC8FDB4D026 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD7866B321F429A80028B71E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD7866B221F429A80028B71E /* SpeedoAlert.app */,
+				FD7866C621F429AE0028B71E /* SpeedoAlertTests.xctest */,
+				FD7866D121F429AE0028B71E /* SpeedoAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD7866B421F429A80028B71E /* SpeedoAlert */ = {
+			isa = PBXGroup;
+			children = (
+				FD7866B521F429A80028B71E /* AppDelegate.swift */,
+				FD7866B721F429A80028B71E /* ViewController.swift */,
+				FD7866E521F44EE60028B71E /* sound.mp3 */,
+				FD7866B921F429A80028B71E /* Main.storyboard */,
+				FD7866E921F4925E0028B71E /* krunch_bold.ttf */,
+				FD7866BC21F429AD0028B71E /* Assets.xcassets */,
+				FD7866BE21F429AD0028B71E /* LaunchScreen.storyboard */,
+				FD7866C121F429AD0028B71E /* Info.plist */,
+			);
+			path = SpeedoAlert;
+			sourceTree = "<group>";
+		};
+		FD7866C921F429AE0028B71E /* SpeedoAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD7866CA21F429AE0028B71E /* SpeedoAlertTests.swift */,
+				FD7866CC21F429AE0028B71E /* Info.plist */,
+			);
+			path = SpeedoAlertTests;
+			sourceTree = "<group>";
+		};
+		FD7866D421F429AE0028B71E /* SpeedoAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD7866D521F429AE0028B71E /* SpeedoAlertUITests.swift */,
+				FD7866D721F429AE0028B71E /* Info.plist */,
+			);
+			path = SpeedoAlertUITests;
+			sourceTree = "<group>";
+		};
+		FF46E40DDD884CC8FDB4D026 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DA61AE87A5EEE7066848EF9 /* Pods_SpeedoAlert.framework */,
+				89F54DC07B54296C72AC6962 /* Pods_SpeedoAlertTests.framework */,
+				F7846C5D1C2333C0087B4FFC /* Pods_SpeedoAlertUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD7866B121F429A80028B71E /* SpeedoAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7866DA21F429AE0028B71E /* Build configuration list for PBXNativeTarget "SpeedoAlert" */;
+			buildPhases = (
+				AF64A6EF77EB516A547501FB /* [CP] Check Pods Manifest.lock */,
+				FD7866AE21F429A80028B71E /* Sources */,
+				FD7866AF21F429A80028B71E /* Frameworks */,
+				FD7866B021F429A80028B71E /* Resources */,
+				00FAF7376B28A83CB7128EFE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedoAlert;
+			productName = SpeedoAlert;
+			productReference = FD7866B221F429A80028B71E /* SpeedoAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD7866C521F429AE0028B71E /* SpeedoAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7866DD21F429AE0028B71E /* Build configuration list for PBXNativeTarget "SpeedoAlertTests" */;
+			buildPhases = (
+				37EBFB8B8B6D0C5EE6749492 /* [CP] Check Pods Manifest.lock */,
+				FD7866C221F429AE0028B71E /* Sources */,
+				FD7866C321F429AE0028B71E /* Frameworks */,
+				FD7866C421F429AE0028B71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7866C821F429AE0028B71E /* PBXTargetDependency */,
+			);
+			name = SpeedoAlertTests;
+			productName = SpeedoAlertTests;
+			productReference = FD7866C621F429AE0028B71E /* SpeedoAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD7866D021F429AE0028B71E /* SpeedoAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7866E021F429AE0028B71E /* Build configuration list for PBXNativeTarget "SpeedoAlertUITests" */;
+			buildPhases = (
+				3CF6842E1D2895578EDBA1C5 /* [CP] Check Pods Manifest.lock */,
+				FD7866CD21F429AE0028B71E /* Sources */,
+				FD7866CE21F429AE0028B71E /* Frameworks */,
+				FD7866CF21F429AE0028B71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7866D321F429AE0028B71E /* PBXTargetDependency */,
+			);
+			name = SpeedoAlertUITests;
+			productName = SpeedoAlertUITests;
+			productReference = FD7866D121F429AE0028B71E /* SpeedoAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD7866AA21F429A80028B71E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Verved;
+				TargetAttributes = {
+					FD7866B121F429A80028B71E = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					FD7866C521F429AE0028B71E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FD7866B121F429A80028B71E;
+					};
+					FD7866D021F429AE0028B71E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FD7866B121F429A80028B71E;
+					};
+				};
+			};
+			buildConfigurationList = FD7866AD21F429A80028B71E /* Build configuration list for PBXProject "SpeedoAlert" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD7866A921F429A70028B71E;
+			productRefGroup = FD7866B321F429A80028B71E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD7866B121F429A80028B71E /* SpeedoAlert */,
+				FD7866C521F429AE0028B71E /* SpeedoAlertTests */,
+				FD7866D021F429AE0028B71E /* SpeedoAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD7866B021F429A80028B71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7866ED21F4A3710028B71E /* krunch_bold.ttf in Resources */,
+				FD7866E621F44EE70028B71E /* sound.mp3 in Resources */,
+				FD7866C021F429AD0028B71E /* LaunchScreen.storyboard in Resources */,
+				FD7866BD21F429AD0028B71E /* Assets.xcassets in Resources */,
+				FD7866BB21F429A80028B71E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7866C421F429AE0028B71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7866CF21F429AE0028B71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00FAF7376B28A83CB7128EFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpeedoAlert/Pods-SpeedoAlert-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBCircularProgressBar/MBCircularProgressBar.framework",
+				"${BUILT_PRODUCTS_DIR}/SizeSlideButton/SizeSlideButton.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBCircularProgressBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SizeSlideButton.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedoAlert/Pods-SpeedoAlert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37EBFB8B8B6D0C5EE6749492 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeedoAlertTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CF6842E1D2895578EDBA1C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeedoAlertUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF64A6EF77EB516A547501FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeedoAlert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD7866AE21F429A80028B71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7866B821F429A80028B71E /* ViewController.swift in Sources */,
+				FD7866B621F429A80028B71E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7866C221F429AE0028B71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7866CB21F429AE0028B71E /* SpeedoAlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7866CD21F429AE0028B71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7866D621F429AE0028B71E /* SpeedoAlertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD7866C821F429AE0028B71E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7866B121F429A80028B71E /* SpeedoAlert */;
+			targetProxy = FD7866C721F429AE0028B71E /* PBXContainerItemProxy */;
+		};
+		FD7866D321F429AE0028B71E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7866B121F429A80028B71E /* SpeedoAlert */;
+			targetProxy = FD7866D221F429AE0028B71E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD7866B921F429A80028B71E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD7866BA21F429A80028B71E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD7866BE21F429AD0028B71E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD7866BF21F429AD0028B71E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD7866D821F429AE0028B71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD7866D921F429AE0028B71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD7866DB21F429AE0028B71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BEDA21C073F110E11DAF0F7 /* Pods-SpeedoAlert.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F567T5B3F8;
+				INFOPLIST_FILE = SpeedoAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.vervded.Speedo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD7866DC21F429AE0028B71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0660DA121CD0415630DFBC /* Pods-SpeedoAlert.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F567T5B3F8;
+				INFOPLIST_FILE = SpeedoAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.vervded.Speedo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD7866DE21F429AE0028B71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1A61A69F6C9CA225029A1EB /* Pods-SpeedoAlertTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY99V8Y8S;
+				INFOPLIST_FILE = SpeedoAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.verved.SpeedoAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedoAlert.app/SpeedoAlert";
+			};
+			name = Debug;
+		};
+		FD7866DF21F429AE0028B71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C70E034F9A79C455690C87B9 /* Pods-SpeedoAlertTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY99V8Y8S;
+				INFOPLIST_FILE = SpeedoAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.verved.SpeedoAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedoAlert.app/SpeedoAlert";
+			};
+			name = Release;
+		};
+		FD7866E121F429AE0028B71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7BC93C789E135B7BE488B3 /* Pods-SpeedoAlertUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY99V8Y8S;
+				INFOPLIST_FILE = SpeedoAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.verved.SpeedoAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedoAlert;
+			};
+			name = Debug;
+		};
+		FD7866E221F429AE0028B71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7316994C700CCEB4CC76F989 /* Pods-SpeedoAlertUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY99V8Y8S;
+				INFOPLIST_FILE = SpeedoAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.verved.SpeedoAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedoAlert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD7866AD21F429A80028B71E /* Build configuration list for PBXProject "SpeedoAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7866D821F429AE0028B71E /* Debug */,
+				FD7866D921F429AE0028B71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7866DA21F429AE0028B71E /* Build configuration list for PBXNativeTarget "SpeedoAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7866DB21F429AE0028B71E /* Debug */,
+				FD7866DC21F429AE0028B71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7866DD21F429AE0028B71E /* Build configuration list for PBXNativeTarget "SpeedoAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7866DE21F429AE0028B71E /* Debug */,
+				FD7866DF21F429AE0028B71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7866E021F429AE0028B71E /* Build configuration list for PBXNativeTarget "SpeedoAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7866E121F429AE0028B71E /* Debug */,
+				FD7866E221F429AE0028B71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD7866AA21F429A80028B71E /* Project object */;
+}

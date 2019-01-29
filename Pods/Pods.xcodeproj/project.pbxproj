@@ -1,0 +1,1284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AEC48D9BF2B31A6F030B305AD4CC68 /* MBCircularProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F162FB4CB8E048159ADA857E21CD82D /* MBCircularProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17D1FD5753D2308E260D4922201C67FC /* SizeSlideButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF02BE4F0F016592437FCDE709B14DEF /* SizeSlideButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		227BAB8CA391D14790FCB3431EB2B303 /* Pods-SpeedoAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E59E394FB549E101A0DF6E3924E766C /* Pods-SpeedoAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E980B02BE27335D095CBF9CF49CF4B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		2ED080F08647A2DBBAA0BD30CFB37C35 /* SizeSlideButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 949575E1B69410DF2ACCF1850F989E7A /* SizeSlideButton-dummy.m */; };
+		5D967AF7CE290DA0072D6CDE2FC2B88B /* MBCircularProgressBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D4074EF1BDAE81714CE6B97258F094 /* MBCircularProgressBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		672AA61CF0A30395BE141638751DCAE7 /* Pods-SpeedoAlertTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E03CCA2173695FF60B107C005505133 /* Pods-SpeedoAlertTests-dummy.m */; };
+		71DDA8500F6E2AA987344D9B7A302B86 /* SizeSlideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5990776EA704D6BC4C08EF7BDDA17F0 /* SizeSlideButton.swift */; };
+		791E99C753157757CBA3587E483AAFE0 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = DCB57365E166BD071EC787767466212A /* example.png */; };
+		89F0DD3723CD0871A9FFD283EA003BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		8A20D334C79AB3A4E1BF464A837A7A51 /* MBCircularProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F4263802D1EA321D9075D79F4C2CA0 /* MBCircularProgressBar-dummy.m */; };
+		A366969E41DFEEC51420E7C5EB4FB252 /* MBCircularProgressBarLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6B45EBE1544D28E0731A1AC6FEC768 /* MBCircularProgressBarLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E46C8B688D0A8E49854E35FB9051B0 /* Pods-SpeedoAlertUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF99B9C5C6D65B3C86B909E408B0AADD /* Pods-SpeedoAlertUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6A2D67FCDCBCFA9DC380BE5134D25D4 /* MBCircularProgressBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 61D3AE2FCE7CDDC3EED4082AC5E936CF /* MBCircularProgressBar.bundle */; };
+		B6FE417160D724E5A8FE19A4B8D13ED5 /* MBCircularProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 286E84BC7E8F2BDB9A776F75E0065945 /* MBCircularProgressBarView.m */; };
+		D02F14B61B68DAA06EC5148A639EA911 /* Pods-SpeedoAlertUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4A6D5E60C51782934E09FC94199D61 /* Pods-SpeedoAlertUITests-dummy.m */; };
+		DD69898E1C77B447A617C5D83AFDA2B3 /* MBCircularProgressBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFAA38535DBD5CBFA8CA3E7A2249BD3 /* MBCircularProgressBarLayer.m */; };
+		E2014401DF709EA42AA1EC577069D7A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		E97F74D93AA2C6523CB5CD75725A5AEE /* Pods-SpeedoAlertTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAEF63174F72F26817C6C2EB3EE0E866 /* Pods-SpeedoAlertTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED9EFEEEE14B732B2092B778B4918736 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		F0A298BF8A38C5090FAA6457A884BC30 /* Pods-SpeedoAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA1539EB15AC695C5400539AD45DEA1 /* Pods-SpeedoAlert-dummy.m */; };
+		F43FB71BA8F53A7303D84779B047DB0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2973D5BAC71C3B5DFDDF39C948E121D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF01DFEBC4074645C585421EDCDC2D5;
+			remoteInfo = MBCircularProgressBar;
+		};
+		417E53FDA274654005F8E5DD0A7C7DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E65C23DFC916E2CF58F9F4097A2F2C;
+			remoteInfo = "Pods-SpeedoAlert";
+		};
+		991E658E2C9750ED683D0EB29877067B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E65C23DFC916E2CF58F9F4097A2F2C;
+			remoteInfo = "Pods-SpeedoAlert";
+		};
+		BC8F5E0C6CBE1CEBFBA663FFA65FB2D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8C115025F8B9428B1D19FE4E933F82;
+			remoteInfo = SizeSlideButton;
+		};
+		E356EF8F835DD8477BB0B09D16167B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA77810BEE331070077B6479447EA78;
+			remoteInfo = "MBCircularProgressBar-MBCircularProgressBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D977F0BC88B3AAE1819B8C4263B6E1 /* Pods-SpeedoAlertTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpeedoAlertTests.modulemap"; sourceTree = "<group>"; };
+		03FF8ACB9946C3900BCA8E6C46D90A45 /* Pods-SpeedoAlert-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpeedoAlert-frameworks.sh"; sourceTree = "<group>"; };
+		07CD3D2F5C2948346CE46451A01ECC78 /* Pods-SpeedoAlert-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpeedoAlert-acknowledgements.plist"; sourceTree = "<group>"; };
+		09F4263802D1EA321D9075D79F4C2CA0 /* MBCircularProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBCircularProgressBar-dummy.m"; sourceTree = "<group>"; };
+		0BD4B2680787609BDC43F1088E93628D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1462A766548B8CF7E56CBDF615FC8EE5 /* Pods_SpeedoAlertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpeedoAlertTests.framework; path = "Pods-SpeedoAlertTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150EB444F6A405645D0BFCB86A5FE152 /* SizeSlideButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SizeSlideButton.xcconfig; sourceTree = "<group>"; };
+		17EE69A4AA1BC91A6375A9848011BFFF /* Pods-SpeedoAlertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpeedoAlertUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E03CCA2173695FF60B107C005505133 /* Pods-SpeedoAlertTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpeedoAlertTests-dummy.m"; sourceTree = "<group>"; };
+		266AD72C42E10BB95B54D502D67092EC /* SizeSlideButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SizeSlideButton.framework; path = SizeSlideButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28444FA58C059142FB91E700A527E28C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286E84BC7E8F2BDB9A776F75E0065945 /* MBCircularProgressBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarView.m; path = Pod/Classes/MBCircularProgressBarView.m; sourceTree = "<group>"; };
+		2BA1539EB15AC695C5400539AD45DEA1 /* Pods-SpeedoAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpeedoAlert-dummy.m"; sourceTree = "<group>"; };
+		3463ED4049599CD84C0F321C3722A955 /* MBCircularProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		3C34194EA1DF78B3A1BDFEE0E3DF0C87 /* Pods-SpeedoAlertTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpeedoAlertTests-resources.sh"; sourceTree = "<group>"; };
+		41AEEB538F50F4062823E3254B26C8A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49619EE4889F11C655DCDA84BA0AB4C3 /* Pods-SpeedoAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpeedoAlert.debug.xcconfig"; sourceTree = "<group>"; };
+		4AED644256D3943D9E788738F1C3C469 /* SizeSlideButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SizeSlideButton.modulemap; sourceTree = "<group>"; };
+		4F162FB4CB8E048159ADA857E21CD82D /* MBCircularProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		5C19667F12E2ACB1D3269235E52E8A4A /* Pods-SpeedoAlertUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpeedoAlertUITests-resources.sh"; sourceTree = "<group>"; };
+		61D3AE2FCE7CDDC3EED4082AC5E936CF /* MBCircularProgressBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MBCircularProgressBar.bundle; path = "MBCircularProgressBar-MBCircularProgressBar.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		652E9F8B2ECB75D93C5B28B1EFB661CE /* Pods-SpeedoAlertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpeedoAlertUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7CA2B84B49B44CA90F870B480E4EF2F8 /* Pods_SpeedoAlertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpeedoAlertUITests.framework; path = "Pods-SpeedoAlertUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D38A9E88D5DF6B10BAEDA6781AC0EAA /* ResourceBundle-MBCircularProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MBCircularProgressBar-Info.plist"; sourceTree = "<group>"; };
+		80BFDE17F2A759AD851084A38C83C1FE /* Pods-SpeedoAlertUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpeedoAlertUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C25DF8153467987BBF860F4DE38CD44 /* MBCircularProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBCircularProgressBar.framework; path = MBCircularProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6B45EBE1544D28E0731A1AC6FEC768 /* MBCircularProgressBarLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarLayer.h; path = Pod/Classes/MBCircularProgressBarLayer.h; sourceTree = "<group>"; };
+		8E59E394FB549E101A0DF6E3924E766C /* Pods-SpeedoAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpeedoAlert-umbrella.h"; sourceTree = "<group>"; };
+		8F3EEE9BD2E47B2C595830FB7D93E8A0 /* MBCircularProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBCircularProgressBar.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		949575E1B69410DF2ACCF1850F989E7A /* SizeSlideButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SizeSlideButton-dummy.m"; sourceTree = "<group>"; };
+		95569566005FA9DF9500C5018751AAC3 /* Pods-SpeedoAlert-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpeedoAlert-resources.sh"; sourceTree = "<group>"; };
+		9AAD3B704BF7FABA2DA35C940FC94FE3 /* Pods-SpeedoAlertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpeedoAlertTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9ED63D73D81A9ACCE3C827DDABA7EAE6 /* Pods-SpeedoAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpeedoAlert.release.xcconfig"; sourceTree = "<group>"; };
+		A5990776EA704D6BC4C08EF7BDDA17F0 /* SizeSlideButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SizeSlideButton.swift; sourceTree = "<group>"; };
+		AF02BE4F0F016592437FCDE709B14DEF /* SizeSlideButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SizeSlideButton-umbrella.h"; sourceTree = "<group>"; };
+		AF99B9C5C6D65B3C86B909E408B0AADD /* Pods-SpeedoAlertUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpeedoAlertUITests-umbrella.h"; sourceTree = "<group>"; };
+		BAEF63174F72F26817C6C2EB3EE0E866 /* Pods-SpeedoAlertTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpeedoAlertTests-umbrella.h"; sourceTree = "<group>"; };
+		BB81C8D3A232E21E6393F5B34D938CF9 /* Pods-SpeedoAlertTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpeedoAlertTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BCEBE3E361A8FB4E61DE4D00FADEE717 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C11D35D3D4EB8561DCC056007B7AFEB1 /* SizeSlideButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SizeSlideButton-prefix.pch"; sourceTree = "<group>"; };
+		C3D237B8091A71930E4194E6312C58AB /* Pods-SpeedoAlertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpeedoAlertTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB1764E4000944592463212B29D25D27 /* Pods-SpeedoAlertUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpeedoAlertUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CB1DC31A241D1ACBE7B5FA6871781AF4 /* Pods_SpeedoAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpeedoAlert.framework; path = "Pods-SpeedoAlert.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0F474E7432C4156DD4D75B8A1406D5 /* Pods-SpeedoAlertUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpeedoAlertUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D01FA204423D2BFCFFDF1E70C2253E8C /* Pods-SpeedoAlertTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpeedoAlertTests-frameworks.sh"; sourceTree = "<group>"; };
+		D30C31974263467647E8F0E70284AD98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D84CBB1E2AE165A8ADEFC5755FA3CB7C /* Pods-SpeedoAlert-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpeedoAlert-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB5D4987678CFCFC594373A334A5B8DD /* Pods-SpeedoAlertTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpeedoAlertTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DCB57365E166BD071EC787767466212A /* example.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = example.png; path = Pod/Assets/example.png; sourceTree = "<group>"; };
+		DFD532BE368979E890D355B354C4A56A /* Pods-SpeedoAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpeedoAlert.modulemap"; sourceTree = "<group>"; };
+		E4ACA37CAE3BB64CE84FA66E2D101AA2 /* MBCircularProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBCircularProgressBar.modulemap; sourceTree = "<group>"; };
+		EAFAA38535DBD5CBFA8CA3E7A2249BD3 /* MBCircularProgressBarLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarLayer.m; path = Pod/Classes/MBCircularProgressBarLayer.m; sourceTree = "<group>"; };
+		F0D4074EF1BDAE81714CE6B97258F094 /* MBCircularProgressBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarView.h; path = Pod/Classes/MBCircularProgressBarView.h; sourceTree = "<group>"; };
+		F337415BF1E095F8599804B67781D1B9 /* Pods-SpeedoAlertUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpeedoAlertUITests.modulemap"; sourceTree = "<group>"; };
+		FC4A6D5E60C51782934E09FC94199D61 /* Pods-SpeedoAlertUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpeedoAlertUITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A7698F44BB7F9F654D26F7129CE43B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43FB71BA8F53A7303D84779B047DB0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626E7277EA1A248583929828195CC677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E980B02BE27335D095CBF9CF49CF4B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FB09B66B054B72911ACC54171F149F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2014401DF709EA42AA1EC577069D7A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA36B105341340B679BD3C6FD277068E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F0DD3723CD0871A9FFD283EA003BDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E454B71CD2C51928DFADE9A2F2451165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2CC28CE406F0F83968BE639E4625ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9EFEEEE14B732B2092B778B4918736 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000C9E7461CD0337604FBBC50D69F2E3 /* Pods-SpeedoAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCEBE3E361A8FB4E61DE4D00FADEE717 /* Info.plist */,
+				02D977F0BC88B3AAE1819B8C4263B6E1 /* Pods-SpeedoAlertTests.modulemap */,
+				BB81C8D3A232E21E6393F5B34D938CF9 /* Pods-SpeedoAlertTests-acknowledgements.markdown */,
+				DB5D4987678CFCFC594373A334A5B8DD /* Pods-SpeedoAlertTests-acknowledgements.plist */,
+				1E03CCA2173695FF60B107C005505133 /* Pods-SpeedoAlertTests-dummy.m */,
+				D01FA204423D2BFCFFDF1E70C2253E8C /* Pods-SpeedoAlertTests-frameworks.sh */,
+				3C34194EA1DF78B3A1BDFEE0E3DF0C87 /* Pods-SpeedoAlertTests-resources.sh */,
+				BAEF63174F72F26817C6C2EB3EE0E866 /* Pods-SpeedoAlertTests-umbrella.h */,
+				9AAD3B704BF7FABA2DA35C940FC94FE3 /* Pods-SpeedoAlertTests.debug.xcconfig */,
+				C3D237B8091A71930E4194E6312C58AB /* Pods-SpeedoAlertTests.release.xcconfig */,
+			);
+			name = "Pods-SpeedoAlertTests";
+			path = "Target Support Files/Pods-SpeedoAlertTests";
+			sourceTree = "<group>";
+		};
+		0AA31BBE85D3B0DE8B281BF5CCBDC2B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41AEEB538F50F4062823E3254B26C8A0 /* Info.plist */,
+				4AED644256D3943D9E788738F1C3C469 /* SizeSlideButton.modulemap */,
+				150EB444F6A405645D0BFCB86A5FE152 /* SizeSlideButton.xcconfig */,
+				949575E1B69410DF2ACCF1850F989E7A /* SizeSlideButton-dummy.m */,
+				C11D35D3D4EB8561DCC056007B7AFEB1 /* SizeSlideButton-prefix.pch */,
+				AF02BE4F0F016592437FCDE709B14DEF /* SizeSlideButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SizeSlideButton";
+			sourceTree = "<group>";
+		};
+		120944C2EB73E3FA007EFA4ECF3BC1A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BD4B2680787609BDC43F1088E93628D /* Info.plist */,
+				E4ACA37CAE3BB64CE84FA66E2D101AA2 /* MBCircularProgressBar.modulemap */,
+				8F3EEE9BD2E47B2C595830FB7D93E8A0 /* MBCircularProgressBar.xcconfig */,
+				09F4263802D1EA321D9075D79F4C2CA0 /* MBCircularProgressBar-dummy.m */,
+				3463ED4049599CD84C0F321C3722A955 /* MBCircularProgressBar-prefix.pch */,
+				4F162FB4CB8E048159ADA857E21CD82D /* MBCircularProgressBar-umbrella.h */,
+				7D38A9E88D5DF6B10BAEDA6781AC0EAA /* ResourceBundle-MBCircularProgressBar-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBCircularProgressBar";
+			sourceTree = "<group>";
+		};
+		20026FC78FDD6E864B5B3710A87ED384 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61D3AE2FCE7CDDC3EED4082AC5E936CF /* MBCircularProgressBar.bundle */,
+				8C25DF8153467987BBF860F4DE38CD44 /* MBCircularProgressBar.framework */,
+				CB1DC31A241D1ACBE7B5FA6871781AF4 /* Pods_SpeedoAlert.framework */,
+				1462A766548B8CF7E56CBDF615FC8EE5 /* Pods_SpeedoAlertTests.framework */,
+				7CA2B84B49B44CA90F870B480E4EF2F8 /* Pods_SpeedoAlertUITests.framework */,
+				266AD72C42E10BB95B54D502D67092EC /* SizeSlideButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		231A67F03508E566EBF3F87E31C75259 /* Pods-SpeedoAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D30C31974263467647E8F0E70284AD98 /* Info.plist */,
+				F337415BF1E095F8599804B67781D1B9 /* Pods-SpeedoAlertUITests.modulemap */,
+				80BFDE17F2A759AD851084A38C83C1FE /* Pods-SpeedoAlertUITests-acknowledgements.markdown */,
+				CD0F474E7432C4156DD4D75B8A1406D5 /* Pods-SpeedoAlertUITests-acknowledgements.plist */,
+				FC4A6D5E60C51782934E09FC94199D61 /* Pods-SpeedoAlertUITests-dummy.m */,
+				CB1764E4000944592463212B29D25D27 /* Pods-SpeedoAlertUITests-frameworks.sh */,
+				5C19667F12E2ACB1D3269235E52E8A4A /* Pods-SpeedoAlertUITests-resources.sh */,
+				AF99B9C5C6D65B3C86B909E408B0AADD /* Pods-SpeedoAlertUITests-umbrella.h */,
+				17EE69A4AA1BC91A6375A9848011BFFF /* Pods-SpeedoAlertUITests.debug.xcconfig */,
+				652E9F8B2ECB75D93C5B28B1EFB661CE /* Pods-SpeedoAlertUITests.release.xcconfig */,
+			);
+			name = "Pods-SpeedoAlertUITests";
+			path = "Target Support Files/Pods-SpeedoAlertUITests";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C73EEE807265895479A01958B969BBA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCB57365E166BD071EC787767466212A /* example.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BDB1AAE103A21C815684D89B54E03CF0 /* Pods */,
+				20026FC78FDD6E864B5B3710A87ED384 /* Products */,
+				FCA6E95F81FFD751C9FD766F34D6F336 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A47F6189769C53DE8D3C90295393EA81 /* MBCircularProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				8C6B45EBE1544D28E0731A1AC6FEC768 /* MBCircularProgressBarLayer.h */,
+				EAFAA38535DBD5CBFA8CA3E7A2249BD3 /* MBCircularProgressBarLayer.m */,
+				F0D4074EF1BDAE81714CE6B97258F094 /* MBCircularProgressBarView.h */,
+				286E84BC7E8F2BDB9A776F75E0065945 /* MBCircularProgressBarView.m */,
+				7C73EEE807265895479A01958B969BBA /* Resources */,
+				120944C2EB73E3FA007EFA4ECF3BC1A7 /* Support Files */,
+			);
+			name = MBCircularProgressBar;
+			path = MBCircularProgressBar;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDB1AAE103A21C815684D89B54E03CF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A47F6189769C53DE8D3C90295393EA81 /* MBCircularProgressBar */,
+				C3AB6256C54DC6006365AC7C2A6F67B1 /* SizeSlideButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3AB6256C54DC6006365AC7C2A6F67B1 /* SizeSlideButton */ = {
+			isa = PBXGroup;
+			children = (
+				A5990776EA704D6BC4C08EF7BDDA17F0 /* SizeSlideButton.swift */,
+				0AA31BBE85D3B0DE8B281BF5CCBDC2B0 /* Support Files */,
+			);
+			name = SizeSlideButton;
+			path = SizeSlideButton;
+			sourceTree = "<group>";
+		};
+		E1061548B6BDA94F5D127927201809CB /* Pods-SpeedoAlert */ = {
+			isa = PBXGroup;
+			children = (
+				28444FA58C059142FB91E700A527E28C /* Info.plist */,
+				DFD532BE368979E890D355B354C4A56A /* Pods-SpeedoAlert.modulemap */,
+				D84CBB1E2AE165A8ADEFC5755FA3CB7C /* Pods-SpeedoAlert-acknowledgements.markdown */,
+				07CD3D2F5C2948346CE46451A01ECC78 /* Pods-SpeedoAlert-acknowledgements.plist */,
+				2BA1539EB15AC695C5400539AD45DEA1 /* Pods-SpeedoAlert-dummy.m */,
+				03FF8ACB9946C3900BCA8E6C46D90A45 /* Pods-SpeedoAlert-frameworks.sh */,
+				95569566005FA9DF9500C5018751AAC3 /* Pods-SpeedoAlert-resources.sh */,
+				8E59E394FB549E101A0DF6E3924E766C /* Pods-SpeedoAlert-umbrella.h */,
+				49619EE4889F11C655DCDA84BA0AB4C3 /* Pods-SpeedoAlert.debug.xcconfig */,
+				9ED63D73D81A9ACCE3C827DDABA7EAE6 /* Pods-SpeedoAlert.release.xcconfig */,
+			);
+			name = "Pods-SpeedoAlert";
+			path = "Target Support Files/Pods-SpeedoAlert";
+			sourceTree = "<group>";
+		};
+		FCA6E95F81FFD751C9FD766F34D6F336 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1061548B6BDA94F5D127927201809CB /* Pods-SpeedoAlert */,
+				000C9E7461CD0337604FBBC50D69F2E3 /* Pods-SpeedoAlertTests */,
+				231A67F03508E566EBF3F87E31C75259 /* Pods-SpeedoAlertUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E9712048D1BCC4CE1AC48E3B638B394 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D1FD5753D2308E260D4922201C67FC /* SizeSlideButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E51E604836F6316A6F1A06B9791D7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E46C8B688D0A8E49854E35FB9051B0 /* Pods-SpeedoAlertUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F825684DD4C8FF618AE529FF6BCD140 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AEC48D9BF2B31A6F030B305AD4CC68 /* MBCircularProgressBar-umbrella.h in Headers */,
+				A366969E41DFEEC51420E7C5EB4FB252 /* MBCircularProgressBarLayer.h in Headers */,
+				5D967AF7CE290DA0072D6CDE2FC2B88B /* MBCircularProgressBarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6953F4B7B4A9CFB737BCAD02451DF5EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227BAB8CA391D14790FCB3431EB2B303 /* Pods-SpeedoAlert-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A8BC427E09E95E34B02C3B23009C95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97F74D93AA2C6523CB5CD75725A5AEE /* Pods-SpeedoAlertTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1791B1FE0032B3178FBE9A94FE183A65 /* Pods-SpeedoAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D8DCBA9EBDC7EDA7331277BE03E4AAB /* Build configuration list for PBXNativeTarget "Pods-SpeedoAlertUITests" */;
+			buildPhases = (
+				41E51E604836F6316A6F1A06B9791D7B /* Headers */,
+				3392D4E43FBF604DBB9C28B97901B823 /* Sources */,
+				2A7698F44BB7F9F654D26F7129CE43B4 /* Frameworks */,
+				3458EEEBF2159E0D3E82E8FD737A0EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7D54B97A1E23BA566CC6EF21079C930 /* PBXTargetDependency */,
+			);
+			name = "Pods-SpeedoAlertUITests";
+			productName = "Pods-SpeedoAlertUITests";
+			productReference = 7CA2B84B49B44CA90F870B480E4EF2F8 /* Pods_SpeedoAlertUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3DA77810BEE331070077B6479447EA78 /* MBCircularProgressBar-MBCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20056EC7361F005A3AC85DFE89FD804 /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */;
+			buildPhases = (
+				1929B6E8C28F90B7F9C5C6C6F0E9F3F1 /* Sources */,
+				E454B71CD2C51928DFADE9A2F2451165 /* Frameworks */,
+				D2CA06A9AD124EEA34938579644200A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBCircularProgressBar-MBCircularProgressBar";
+			productName = "MBCircularProgressBar-MBCircularProgressBar";
+			productReference = 61D3AE2FCE7CDDC3EED4082AC5E936CF /* MBCircularProgressBar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8C8C115025F8B9428B1D19FE4E933F82 /* SizeSlideButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B7FA2A2036BBFE617E814C5FD7877A7 /* Build configuration list for PBXNativeTarget "SizeSlideButton" */;
+			buildPhases = (
+				3E9712048D1BCC4CE1AC48E3B638B394 /* Headers */,
+				2E45A66969E6B08A454E2FEAEA1C5670 /* Sources */,
+				626E7277EA1A248583929828195CC677 /* Frameworks */,
+				33FCE6105555434D8AB7DE9B9E379F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SizeSlideButton;
+			productName = SizeSlideButton;
+			productReference = 266AD72C42E10BB95B54D502D67092EC /* SizeSlideButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6E65C23DFC916E2CF58F9F4097A2F2C /* Pods-SpeedoAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 896DACCD73C969470DF64859DC6D4DCC /* Build configuration list for PBXNativeTarget "Pods-SpeedoAlert" */;
+			buildPhases = (
+				6953F4B7B4A9CFB737BCAD02451DF5EE /* Headers */,
+				741AFD888264FCB7D3865DC2D1B8A082 /* Sources */,
+				F2CC28CE406F0F83968BE639E4625ED7 /* Frameworks */,
+				C4D4832595E56CFBE0C720117DC0CDB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				332D09BDBDC31644F3FD314F2C8D3420 /* PBXTargetDependency */,
+				FDBA65628B77B2351855114A33965110 /* PBXTargetDependency */,
+			);
+			name = "Pods-SpeedoAlert";
+			productName = "Pods-SpeedoAlert";
+			productReference = CB1DC31A241D1ACBE7B5FA6871781AF4 /* Pods_SpeedoAlert.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDF01DFEBC4074645C585421EDCDC2D5 /* MBCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE91ACDA7EDE7FD09C930073463F285F /* Build configuration list for PBXNativeTarget "MBCircularProgressBar" */;
+			buildPhases = (
+				4F825684DD4C8FF618AE529FF6BCD140 /* Headers */,
+				0F7703DCCB38EA8635F7BC5C2EBA204F /* Sources */,
+				CA36B105341340B679BD3C6FD277068E /* Frameworks */,
+				BBF96A1E1F2A5CA496DDC12104AEE2B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				829F5598F8396EDA0D0F24D982298724 /* PBXTargetDependency */,
+			);
+			name = MBCircularProgressBar;
+			productName = MBCircularProgressBar;
+			productReference = 8C25DF8153467987BBF860F4DE38CD44 /* MBCircularProgressBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB7ED42201E075108B1BA6DDE6981B24 /* Pods-SpeedoAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D4DE915C9AB728FECA00B68589D34F6 /* Build configuration list for PBXNativeTarget "Pods-SpeedoAlertTests" */;
+			buildPhases = (
+				D4A8BC427E09E95E34B02C3B23009C95 /* Headers */,
+				2D4B56CD7DD4D330901C853C9A7037BE /* Sources */,
+				77FB09B66B054B72911ACC54171F149F /* Frameworks */,
+				502DAEFCC99C2937F5A45C1B30222462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD352BA2A1BAFC39A646020D5120D05 /* PBXTargetDependency */,
+			);
+			name = "Pods-SpeedoAlertTests";
+			productName = "Pods-SpeedoAlertTests";
+			productReference = 1462A766548B8CF7E56CBDF615FC8EE5 /* Pods_SpeedoAlertTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 20026FC78FDD6E864B5B3710A87ED384 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF01DFEBC4074645C585421EDCDC2D5 /* MBCircularProgressBar */,
+				3DA77810BEE331070077B6479447EA78 /* MBCircularProgressBar-MBCircularProgressBar */,
+				E6E65C23DFC916E2CF58F9F4097A2F2C /* Pods-SpeedoAlert */,
+				FB7ED42201E075108B1BA6DDE6981B24 /* Pods-SpeedoAlertTests */,
+				1791B1FE0032B3178FBE9A94FE183A65 /* Pods-SpeedoAlertUITests */,
+				8C8C115025F8B9428B1D19FE4E933F82 /* SizeSlideButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33FCE6105555434D8AB7DE9B9E379F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3458EEEBF2159E0D3E82E8FD737A0EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		502DAEFCC99C2937F5A45C1B30222462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF96A1E1F2A5CA496DDC12104AEE2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A2D67FCDCBCFA9DC380BE5134D25D4 /* MBCircularProgressBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D4832595E56CFBE0C720117DC0CDB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CA06A9AD124EEA34938579644200A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791E99C753157757CBA3587E483AAFE0 /* example.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F7703DCCB38EA8635F7BC5C2EBA204F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A20D334C79AB3A4E1BF464A837A7A51 /* MBCircularProgressBar-dummy.m in Sources */,
+				DD69898E1C77B447A617C5D83AFDA2B3 /* MBCircularProgressBarLayer.m in Sources */,
+				B6FE417160D724E5A8FE19A4B8D13ED5 /* MBCircularProgressBarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1929B6E8C28F90B7F9C5C6C6F0E9F3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4B56CD7DD4D330901C853C9A7037BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672AA61CF0A30395BE141638751DCAE7 /* Pods-SpeedoAlertTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E45A66969E6B08A454E2FEAEA1C5670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED080F08647A2DBBAA0BD30CFB37C35 /* SizeSlideButton-dummy.m in Sources */,
+				71DDA8500F6E2AA987344D9B7A302B86 /* SizeSlideButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3392D4E43FBF604DBB9C28B97901B823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02F14B61B68DAA06EC5148A639EA911 /* Pods-SpeedoAlertUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741AFD888264FCB7D3865DC2D1B8A082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A298BF8A38C5090FAA6457A884BC30 /* Pods-SpeedoAlert-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		332D09BDBDC31644F3FD314F2C8D3420 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBCircularProgressBar;
+			target = EDF01DFEBC4074645C585421EDCDC2D5 /* MBCircularProgressBar */;
+			targetProxy = 2973D5BAC71C3B5DFDDF39C948E121D0 /* PBXContainerItemProxy */;
+		};
+		829F5598F8396EDA0D0F24D982298724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBCircularProgressBar-MBCircularProgressBar";
+			target = 3DA77810BEE331070077B6479447EA78 /* MBCircularProgressBar-MBCircularProgressBar */;
+			targetProxy = E356EF8F835DD8477BB0B09D16167B9A /* PBXContainerItemProxy */;
+		};
+		E7D54B97A1E23BA566CC6EF21079C930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SpeedoAlert";
+			target = E6E65C23DFC916E2CF58F9F4097A2F2C /* Pods-SpeedoAlert */;
+			targetProxy = 417E53FDA274654005F8E5DD0A7C7DFC /* PBXContainerItemProxy */;
+		};
+		EDD352BA2A1BAFC39A646020D5120D05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SpeedoAlert";
+			target = E6E65C23DFC916E2CF58F9F4097A2F2C /* Pods-SpeedoAlert */;
+			targetProxy = 991E658E2C9750ED683D0EB29877067B /* PBXContainerItemProxy */;
+		};
+		FDBA65628B77B2351855114A33965110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SizeSlideButton;
+			target = 8C8C115025F8B9428B1D19FE4E933F82 /* SizeSlideButton */;
+			targetProxy = BC8F5E0C6CBE1CEBFBA663FFA65FB2D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0BBDA9A7AECC5EBF2BFEA752532014D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F3EEE9BD2E47B2C595830FB7D93E8A0 /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = MBCircularProgressBar;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CD50046784B8B71A6E3281B7F9328E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150EB444F6A405645D0BFCB86A5FE152 /* SizeSlideButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SizeSlideButton/SizeSlideButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SizeSlideButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SizeSlideButton/SizeSlideButton.modulemap";
+				PRODUCT_MODULE_NAME = SizeSlideButton;
+				PRODUCT_NAME = SizeSlideButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4540190CB8CEADB9FB79FC6BC566B698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F3EEE9BD2E47B2C595830FB7D93E8A0 /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/ResourceBundle-MBCircularProgressBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		55C0175422B6C6F98C202C12916A060D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150EB444F6A405645D0BFCB86A5FE152 /* SizeSlideButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SizeSlideButton/SizeSlideButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SizeSlideButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SizeSlideButton/SizeSlideButton.modulemap";
+				PRODUCT_MODULE_NAME = SizeSlideButton;
+				PRODUCT_NAME = SizeSlideButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58C5CCEA33EAAD9F097058B1ECCA4261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F3EEE9BD2E47B2C595830FB7D93E8A0 /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = MBCircularProgressBar;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6862771EC5A50BE4C73CD7C089D7647C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F3EEE9BD2E47B2C595830FB7D93E8A0 /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/ResourceBundle-MBCircularProgressBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6B0265C325AD16AE51080DE13F3D6CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 652E9F8B2ECB75D93C5B28B1EFB661CE /* Pods-SpeedoAlertUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpeedoAlertUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpeedoAlertUITests/Pods-SpeedoAlertUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8000995DA02063BF3777393CD52061DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9DB7D55913B1844AD1F59FE80D56C3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AAD3B704BF7FABA2DA35C940FC94FE3 /* Pods-SpeedoAlertTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpeedoAlertTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpeedoAlertTests/Pods-SpeedoAlertTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF953048E0D267DEC39C1D01B176902C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED63D73D81A9ACCE3C827DDABA7EAE6 /* Pods-SpeedoAlert.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpeedoAlert/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpeedoAlert/Pods-SpeedoAlert.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D033F01FBDE06A1DCA109BB2314BD021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49619EE4889F11C655DCDA84BA0AB4C3 /* Pods-SpeedoAlert.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpeedoAlert/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpeedoAlert/Pods-SpeedoAlert.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D38BE976AB6CDF3330FBA9C1CB5E5623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17EE69A4AA1BC91A6375A9848011BFFF /* Pods-SpeedoAlertUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpeedoAlertUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpeedoAlertUITests/Pods-SpeedoAlertUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E33A4B92263599C56F32F96AA36D7966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D237B8091A71930E4194E6312C58AB /* Pods-SpeedoAlertTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpeedoAlertTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpeedoAlertTests/Pods-SpeedoAlertTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D8DCBA9EBDC7EDA7331277BE03E4AAB /* Build configuration list for PBXNativeTarget "Pods-SpeedoAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38BE976AB6CDF3330FBA9C1CB5E5623 /* Debug */,
+				6B0265C325AD16AE51080DE13F3D6CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B91655AF95B1F49159CD8085CD89 /* Debug */,
+				8000995DA02063BF3777393CD52061DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D4DE915C9AB728FECA00B68589D34F6 /* Build configuration list for PBXNativeTarget "Pods-SpeedoAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB7D55913B1844AD1F59FE80D56C3B8 /* Debug */,
+				E33A4B92263599C56F32F96AA36D7966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B7FA2A2036BBFE617E814C5FD7877A7 /* Build configuration list for PBXNativeTarget "SizeSlideButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C0175422B6C6F98C202C12916A060D /* Debug */,
+				2CD50046784B8B71A6E3281B7F9328E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		896DACCD73C969470DF64859DC6D4DCC /* Build configuration list for PBXNativeTarget "Pods-SpeedoAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D033F01FBDE06A1DCA109BB2314BD021 /* Debug */,
+				BF953048E0D267DEC39C1D01B176902C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20056EC7361F005A3AC85DFE89FD804 /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4540190CB8CEADB9FB79FC6BC566B698 /* Debug */,
+				6862771EC5A50BE4C73CD7C089D7647C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE91ACDA7EDE7FD09C930073463F285F /* Build configuration list for PBXNativeTarget "MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C5CCEA33EAAD9F097058B1ECCA4261 /* Debug */,
+				0BBDA9A7AECC5EBF2BFEA752532014D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

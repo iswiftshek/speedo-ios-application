@@ -1,0 +1,6 @@
+framework module SizeSlideButton {
+  umbrella header "SizeSlideButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

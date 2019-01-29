@@ -1,0 +1,6 @@
+framework module Pods_SpeedoAlertUITests {
+  umbrella header "Pods-SpeedoAlertUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

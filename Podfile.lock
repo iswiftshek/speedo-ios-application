@@ -1,0 +1,20 @@
+PODS:
+  - MBCircularProgressBar (0.3.5)
+  - SizeSlideButton (1.5)
+
+DEPENDENCIES:
+  - MBCircularProgressBar
+  - SizeSlideButton
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MBCircularProgressBar
+    - SizeSlideButton
+
+SPEC CHECKSUMS:
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  SizeSlideButton: 2752e2070cb4a0156a03d8f48231f33bfb2abb88
+
+PODFILE CHECKSUM: c88a990d007e4a37eb5fc10ab6dc6a98aeed38f3
+
+COCOAPODS: 1.5.3
